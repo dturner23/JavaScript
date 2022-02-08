@@ -30,3 +30,13 @@ let myCurrentJob = 'Teacher';
 
 let job1 = 'Programmer'; // less descriptive than myFirstJob
 let job2 = 'Teacher';
+
+console.log(myFirstJob);
+
+let country = "United States";
+let continent = "North America";
+let population = "330 million";
+
+console.log(country);
+console.log(continent);
+console.log(population);
