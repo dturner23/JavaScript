@@ -26,9 +26,9 @@ const HigherBmiFirst = markBmiFirst > johnBmiFirst;
 console.log(HigherBmiFirst);
 
 if(markBmiFirst > johnBmiFirst){
-    console.log(`Mark's BMI is higher than John's!`);
+    console.log(`Mark's BMI (${markBmiFirst}) is higher than John's (${johnBmiFirst})!`);
 } else {
-    console.log(`John's BMI is higher than Mark's!`);
+    console.log(`John's BMI (${johnBmiFirst}) is higher than Mark's! (${markBmiFirst})`);
 }
 
 
@@ -47,7 +47,7 @@ const HigherBmiSecond = markBmiSecond > johnBmiSecond;
 console.log(HigherBmiSecond);
 
 if(markBmiSecond > johnBmiSecond){
-    console.log(`Mark's BMI is higher than John's!`);
+    console.log(`Mark's BMI (${markBmiSecond}) is higher than John's (${johnBmiSecond})!`);
 } else {
-    console.log(`John's BMI is higher than Mark's!`);
+    console.log(`John's BMI (${johnBmiSecond}) is higher than Mark's (${markBmiSecond})!`);
 }
