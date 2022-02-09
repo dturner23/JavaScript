@@ -69,3 +69,49 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('Someone else should drive')
 }
+
+
+
+const day = 'Monday';
+
+switch(day) {
+    case 'Monday': // day === 'monday'
+        console.log("Plan course structure");
+        console.log('Go to coding meetup');
+        break;
+    case 'Tuesday':
+        console.log('Go to coding meetup');
+        break;
+    case 'Wednesday':
+        console.log('Go to coding meetup');
+        break;
+    case 'Thursday':
+    case 'Friday':
+        console.log('Prepare for weekend'); 
+        break;
+    case 'Saturday':
+    case 'Sunday':
+        console.log('Enjoy the weekend');
+    default:
+        console.log('Not a valid day');
+}
+
+if (day === 'Monday') {
+    console.log("Plan course structure");
+    console.log('Go to coding meetup');
+
+}   else if (day === 'Tuesday') {
+    console.log('Go to coding meetup');
+
+} else if (day === 'Wednesday' || day === 'Thursday') {
+    console.log('Prepare for weekend');
+
+} else if (day === 'Friday') {
+    console.log('Enjoy the weekend');
+
+} else if (day === 'Saturday' || day === 'Sunday') {
+    console.log('Enjoy the weekend');
+    
+    } else {
+    console.log('Not a valid day');
+}
