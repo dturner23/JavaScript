@@ -72,3 +72,27 @@ console.log(`Just a regular string...`);
 console.log(`String
 multiple
 lines`)
+
+
+const age = 15;
+
+if(age >= 18) {
+    console.log('Sarah can start driving!');
+} else {
+    const yearsLeft = 18 - age;
+    console.log('Sarah is too young. Wait another ' + yearsLeft + ' years.');
+}
+
+// if else control structure. does not operate linearly.
+
+const birthYear = 2010;
+
+let century;
+
+if (birthYear <= 2000) {  //example of condition because it returns a true/false
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);
